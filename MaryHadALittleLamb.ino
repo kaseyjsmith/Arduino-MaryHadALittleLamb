@@ -1,61 +1,8 @@
+/*
+Author: Kasey Smith
+Date: 2025-02-28
+*/
 #include "pitches.h"
-
-//int melody[] = {
-//  NOTE_E4,
-//  NOTE_D4,
-//  NOTE_C4,
-//  NOTE_D4,
-//  NOTE_E4,
-//  NOTE_E4,
-//  NOTE_E4,  // delay
-//  NOTE_D4,
-//  NOTE_D4,
-//  NOTE_D4,  // delay
-//  NOTE_E4,
-//  NOTE_G4,
-//  NOTE_G4,  // delay
-//  NOTE_E4,
-//  NOTE_D4,
-//  NOTE_C4,
-//  NOTE_D4,
-//  NOTE_E4,
-//  NOTE_E4,
-//  NOTE_E4,
-//  NOTE_E4,
-//  NOTE_D4,
-//  NOTE_D4,
-//  NOTE_E4,
-//  NOTE_D4,
-//  NOTE_C4
-//};
-//int delays[] = {
-//  500,
-//  500,
-//  500,
-//  500,
-//  500,
-//  500,
-//  1000,
-//  500,
-//  500,
-//  1000, 
-//  500,
-//  500,
-//  1000, 
-//  500,
-//  500,
-//  500,
-//  500,
-//  500,
-//  500,
-//  500,
-//  500,
-//  500,
-//  500,
-//  500,
-//  500,
-//  500
-//};
 
 int melody[26][2] = {
   {NOTE_E4, 500},
